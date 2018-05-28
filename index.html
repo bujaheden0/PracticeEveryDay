@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyProjectToDo</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>THIS IS TODO LISTS</h1>
+            <input type="text" placeholder="ADD TODO LIST">
+        </div>
+        <div id="content">
+            <div id="list">
+                <h1>todo</h1>
+                <ul id="todo">
+                    <li draggable="true">Write Code<i class="fas fa-times"></i></li>
+                    <li draggable="true">Test Code<i class="fas fa-times"></i></li>
+                    <li draggable="true">Write Code Again<i class="fas fa-times"></i></li>
+                </ul>
+            </div>
+            <div id="list">
+                <h1>doing</h1>
+                <ul id="doing">
+                        <li draggable="true">Write Code<i class="fas fa-times"></i></li>
+                        <li draggable="true">Test Code<i class="fas fa-times"></i></li>
+                </ul>
+            </div>
+            <div id="list">
+                <h1>done</h1>
+                <ul id="done">
+                        <li draggable="true">Test Code<i class="fas fa-times"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
